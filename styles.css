@@ -6,11 +6,6 @@ body{
 }
 #animal-photos{
 	display: flex;
-	/* grid-template-areas: 
-		"a a a " 
-		"b c d" 
-		"e f g" 
-		"h i j"; */
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	border: 0px solid gray;
@@ -18,7 +13,6 @@ body{
 	border-radius: 10px;
 }
 #photo-heading{
-	/* grid-area: "a"; */
 	width: 100%;
 	text-align: center;
 	color: white;
@@ -30,31 +24,4 @@ img{
 	width: 30%;
 	margin-bottom: 12px;
 	border-radius: 25px;
-}
-.img1{
-	grid-area: "b";
-}
-.img2{
-	grid-area: "c";
-}
-.img3{
-	grid-area: "d";
-}
-.img4{
-	grid-area: "e";
-}
-.img5{
-	grid-area: "f";
-}
-.img6{
-	grid-area: "g";
-}
-.img7{
-	grid-area: "h";
-}
-.img8{
-	grid-area: "i";
-}
-.img9{
-	grid-area: "j";
 }
